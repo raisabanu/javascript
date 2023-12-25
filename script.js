@@ -116,4 +116,33 @@ console.log(typeof message);
 message = 5; //redeclaring the variable
 console.log(message);
 
+//comparison operators => true or false
+const a = 5;
+const b = 10;
 
+//Greater than
+console.log(a > b);
+//Greater than or equal
+console.log( a >= b);
+
+//Less than
+console.log(a < b);
+//lessthan or equal
+console.log(a <= b);
+
+//Is equal
+console.log(a == b);
+//Is not equal - true else false
+console.log(a != b);
+
+//Strict euality
+//compares values and datatypes
+//returns true only if both are same
+console.log(a === b);
+//loose equality - doesnt compare data types 
+console.log(20 == "20") // true loose equality
+console.log(20 === "20") // strict equality
+//Good Ones === !==
+//Evil twins == !==
+
+//Strict inequality
