@@ -44,4 +44,76 @@ const myname ='Raisa';
 //const backticks = `Hello!, ${myname}, Welcome to JS session!`;
 const backticks = `The Sum of two numbers is ${2 + 2}!`;
 console.log(backticks);
+//To give you the type of string of type backticks
+console.log(typeof backticks);
+
+//NUMBERS
+
+const wholeNumber = 5;
+const decimalNumber = 0.5;
+console.log(wholeNumber);
+console.log(decimalNumber);
+
+const firstNumber = 5;
+const secondNumber = 10;
+const result = firstNumber + secondNumber;
+
+console.log(result);
+console.log(typeof result);
+
+//Booleans - It can be TRUE Or FALSE
+const isCool = true;
+console.log(isCool);
+console.log(typeof isCool);
+
+if(isCool)
+{
+    console.log("Yo Man! You are cool");
+}
+else{
+    console.log("Oh, Hi Man!");
+}
+
+//NULL and UNDEFINED
+let age = null;
+age = 20;
+
+console.log(age);
+
+// undefined
+let x;
+
+//Objects - can contain any data types strings, numbers, arrays 
+const person = {
+    rname: 'Ishaan',
+    rage: 25,
+}
+
+//dot notation
+console.log(person.rname);
+console.log(typeof person);  //object
+console.log(typeof person.rname); //String
+console.log(typeof person.rage) // number
+
+//Array
+const array = [1, 2, 3, 4, 5]
+console.log(array);
+
+//Date
+const date = new Date();
+console.log(date);
+
+//Staticly typed and Dynamically typed languagges
+// Static - each variable and expression type has already known had compile time
+
+//a variable in JS can be a string in one moment and a number in another moment
+//dynamic  - they can receive different data types
+
+let message = 'Hello! JS';
+console.log(message);
+console.log(typeof message);
+
+message = 5; //redeclaring the variable
+console.log(message);
+
 
