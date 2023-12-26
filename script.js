@@ -146,3 +146,5 @@ console.log(20 === "20") // strict equality
 //Evil twins == !==
 
 //Strict inequality
+//Logical operators
+//&& ||
